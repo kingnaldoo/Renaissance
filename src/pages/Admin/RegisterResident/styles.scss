@@ -1,0 +1,153 @@
+@import '../../../assets/scss/global.scss';
+
+.container-register {
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    background-color: $colorPrimaryBackground;
+
+    header {
+        background-color: $colorPrimaryDark;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        height: 9vh;
+        box-shadow: none;
+    }
+
+    ul.mb-3 {
+        background-color: $colorPrimaryDark;
+        margin-bottom: 0 !important;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        min-height: 9vh;
+        padding: 0 5vw;
+        box-shadow: 0 -5px 10px black; 
+        
+        .nav-item {
+            display: flex;
+            width: 50%;
+            max-height: 100%;
+
+            button {
+                outline: none;
+                background-color: transparent;
+                color: white;
+                width: 100%;
+                height: 100%;
+                border: 0;
+                font-size: 100%;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 1.2;
+            }
+            .active {
+                border-bottom: 3px solid white;
+            }
+            
+        }
+    }
+
+    #tab-content {
+        padding: 8vw 5vw;
+        height: 82vh;
+
+        form {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+    
+            fieldset {
+                display: flex;
+    
+                svg {
+                    width: 7vw;
+                    height: 7vw;
+                    margin-right: 4vw;
+
+                    path {
+                        stroke: $colorPrimaryDark;
+                    }
+                }
+
+                input[type=number]::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                }
+
+                input[type=number] {
+                    -moz-appearance: textfield;
+                    appearance: textfield;
+                }
+        
+                input {
+                    width: 70%;
+                    margin-bottom: 0;
+                    font-size: 4.5vw;
+                    display: flex;
+                    align-items: center; 
+                    background-color: transparent;
+                    border: 0;
+                    border-bottom: 1px solid $colorFont;
+                    color: $colorFont;
+                    appearance: textfield;
+
+                    &::placeholder {
+                        color: $colorDisabledSecondary;
+                    }
+
+                    &:focus {
+                        color: $colorPrimaryDark;
+                        border-bottom: 1px solid $colorPrimaryLight;
+                    }
+                    
+                }
+            }
+
+        }
+
+        .listing {
+            padding: 0;
+
+            .user {
+                display: flex;
+                align-items: center;
+
+                svg {
+                    margin-right: 5vw;
+                    width: 7vw;
+                    height: 7vw;
+                }
+
+                .info-user {
+                    h3, h5 {
+                        margin-bottom: 0;
+                    }
+
+                    h3 {
+                        font-size: 5vw
+                    }
+
+                    h5 {
+                        font-size: 4vw;
+                    }
+                }
+            }
+
+            .user + .user {
+                margin-top: 4vw;
+            }
+        }
+    }
+}
+
+@import "~bootstrap/scss/bootstrap";
