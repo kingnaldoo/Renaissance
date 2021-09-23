@@ -1,0 +1,22 @@
+@import '../../assets/scss/global.scss';
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3vw 5vw;
+    height: 9vh;
+
+    img {
+        width: 6vw;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.home {
+    #return-icon {
+        visibility: hidden;
+    }
+}
