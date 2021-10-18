@@ -1,6 +1,12 @@
-<p align="center">
-<img src="./logo.svg" width="50%"><br>
-🏡 Renaissance é um web-app de gestão de condomínios, com o objetivo de melhorar a usabilidade do morador, contribuindo assim para a rápida execução de suas tarefas.
+<h1 align="center">
+<img src="./Web/public/logo512.png" width="100"/><br>
+Renaissance
+</h1>
+<p align="center"><b>🏡 Renaissance é um web-app de gestão de condomínios, com o objetivo de melhorar a usabilidade do morador, contribuindo assim para a rápida execução de suas tarefas.</b>
+<ul align="center">
+    <img src="https://img.shields.io/static/v1?label=Status&message=100%&labelColor=%2306121f&style=flat-square&color=%23004508">
+    <img src="https://img.shields.io/static/v1?label=License&message=GPL-3.0&labelColor=%2306121f&style=flat-square&color=%23e60000">
+</ul>
 </p>
 <br>
 <img src="mockup.png">
@@ -16,8 +22,6 @@ Projeto desenvolvido para a cliente Tamires, cuja nossa equipe, denominada <b>A 
     <li>Reinaldo da Silva Nascimento (Desenvolvedor Front-end/Líder)</li>
     <li>Antônio Guilherme do Nascimento Pereira (Desenvolvedor Back-end/Coordenador de testes)</li>
 </ul> 
-
-A aplicação no geral seguirá o padrão REST, do contrário ao tipo MVC que estava sendo usada pelos moradores, o qual não estava tendo uma boa performance, além de pouco intuitivo por conta do design. 
 
 ## 💻 TECNOLOGIAS
 
@@ -67,7 +71,7 @@ A aplicação no geral seguirá o padrão REST, do contrário ao tipo MVC que es
     <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGmNZMDOpmMQg/company-logo_200_200/0/1519905610801?e=2159024400&v=beta&t=D5lu9rTbQ_aW1ubme8GIq_QhKIm8WTiXTtoBlEHPcA8" height="30">
 </ul>
 
-## 🚧 MAPEAMENTO DE FUNCIONALIDADES / STATUS DO PROJETO(100%)
+## 🚧 MAPEAMENTO DE FUNCIONALIDADES
 
 | Requisitos | Descrição | Função | Arquivo | Status
 | --- | --- | --- | --- | --- |
