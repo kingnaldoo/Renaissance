@@ -1,0 +1,36 @@
+@import '../../assets/scss/global.scss';
+
+#button-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $colorButtonBackground;
+    box-shadow: 0px 6px 10px -2px rgba(0,0,0,0.55);
+    width: 100%;
+    height: 40vw;
+    color: white;  
+    border-radius: 4vw;
+    border: 0;
+
+    &:hover {
+        filter: brightness(1.1);
+    }
+
+    img {
+        width: 22%;
+        margin-bottom: 2%;
+    }
+
+    h3 {
+        color: $colorPrimaryLight;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 8vw;
+        margin-bottom: 0;
+    }
+}
+
+#button-nav + #button-nav {
+    margin-top: 4vh;
+}
