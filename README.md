@@ -28,7 +28,7 @@ Projeto desenvolvido para a cliente Tamires, cuja nossa equipe, denominada <b>A 
 ### Protótipo
 <ul>
     <img src="https://cdn.worldvectorlogo.com/logos/figma-1.svg" height="30">
-    <p>Link do protótipo: <a href="https://www.figma.com/file/m2kd7e5Q595obgfMw0oyyB/Projeto-Renaissance?node-id=0%3A1 ">Figma</a></p>
+    <p>Link do protótipo: <a href="https://www.figma.com/file/XF688rMuK9v1CTFRcZshhv/Renaissance-(Mobile)?node-id=0%3A1">Figma</a></p>
 </ul>
 
 ### Front-end
