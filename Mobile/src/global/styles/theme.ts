@@ -9,6 +9,8 @@ export const theme = {
     },
     fonts: {
         title900: 'Roboto-Black',
+		title500: 'Roboto-Medium',
+		text400: 'Roboto-Regular',
         text300: 'Roboto-Light'
     }
-}
+};

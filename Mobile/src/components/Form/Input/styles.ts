@@ -9,5 +9,6 @@ export const styles = StyleSheet.create({
 		color: 'black',
 		fontSize: 14,
 		backgroundColor: 'red'
-	}
+	},
+	formInputText: {}
 });

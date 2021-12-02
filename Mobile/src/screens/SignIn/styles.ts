@@ -21,7 +21,7 @@ export const styles = StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center'
 	},
-	card: {
+	formField: {
 		backgroundColor: '#F7F7F7',
 		width: '75%',
 		height: '98%',
@@ -37,20 +37,71 @@ export const styles = StyleSheet.create({
 		shadowOpacity: 0.29,
 		shadowRadius: 4.65,
 		elevation: 7,
+		justifyContent: 'space-between'
 	},
 	formTitleField: {
 		width: '100%',
 		height: 150,
 		justifyContent: 'center',
 		alignItems: 'center',
-		backgroundColor: 'red'
 	},
 	formTitle: {
 		color: theme.colors.primary,
-		fontFamily: theme.fonts.text300,
+		fontFamily: theme.fonts.title500,
 		fontSize: 36
 	},
-	input: {
+	formSignInField: {
+		justifyContent: 'space-between',
+		height: '50%'
+	},
+	formSignInInputField: {
+	},
+	formInputText: {
+		color: theme.colors.text,
+		fontFamily: theme.fonts.text400,
+		borderBottomColor: '#DDDDDD',
+		borderBottomWidth: 2,
+		padding: 0,
+		marginBottom: 30
+	},
+	formMaintainConnected: {
+		flexDirection: 'row',
+		width: '100%',
+		justifyContent: 'space-between',
+	},
+	formCheckbox: {
+	},
+	formMaintainConnectedText: {
+		color: theme.colors.text,
+		width: '87%',
+	},
+	formSignInSubmitField: {
 
+	},
+	formButtonSubmit: {
+		width: '100%',
+		height: 45,
+		justifyContent: 'center',
+		alignItems: 'center',
+		borderRadius: 10,
+		backgroundColor: theme.colors.primary
+	},
+	formTextButton: {
+		fontFamily: theme.fonts.title900,
+		color: 'white',
+		fontSize: 18
+	},
+	formForgetPassword: {
+		alignSelf: 'center',
+		marginTop: 10,
+		color: theme.colors.text
+	},
+	formSignUpField: {
+		height: '10%',
+		justifyContent: 'center',
+		alignItems: 'center'
+	},
+	formSignUpTextField: {
+		color: theme.colors.text
 	}
 });
