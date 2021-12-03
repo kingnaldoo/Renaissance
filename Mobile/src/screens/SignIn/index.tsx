@@ -32,10 +32,21 @@ export function SignIn() {
 					</View>
 					<Form ref={formRef} onSubmit={handleSignIn} style={styles.formSignInField}>
 						<View style={styles.formSignInInputField}>
-							<TextInput placeholderTextColor={'#6B6B6B'} style={styles.formInputText} placeholder='Email' />
-							<TextInput placeholderTextColor={'#6B6B6B'} style={styles.formInputText} placeholder="Senha" />
+							<Input placeholder='E-mail' />
+							<Input
+								placeholder='Senha'
+								icon={
+									<Icon
+										name={isPasswordVisible ? 'eye' : 'eye-off'}
+										size={24}
+										color="#418C41"
+										onPress={() => setIsPasswordVisible(isPasswordVisible ? false : true)}
+									/>
+								}
+							/>
+
 							<View style={styles.formMaintainConnected}>
-								<Icon name={isChecked ? 'check-square' : 'square'} size={20} color="#1B2735" style={styles.formCheckbox} onPress={() => setIsChecked(isChecked ? false : true)}/>
+								<Icon name={isChecked ? 'check-square' : 'square'} size={20} color="#1B2735" style={styles.formCheckbox} onPress={() => setIsChecked(isChecked ? false : true)} />
 								<Text style={styles.formMaintainConnectedText}>Manter-me conectado</Text>
 							</View>
 						</View>
@@ -48,7 +59,14 @@ export function SignIn() {
 						</View>
 					</Form>
 					<View style={styles.formSignUpField}>
-						<Text style={styles.formSignUpTextField}>Não possui cadastro? <Text>Clique aqui</Text></Text>
+						<Text style={styles.formSignUpTextField}>Não possui cadastro?
+							<Text
+								style={{ textDecorationLine: 'underline' }}
+
+							>
+								Clique aqui
+							</Text>
+						</Text>
 					</View>
 				</KeyboardAvoidingView>
 			</View>

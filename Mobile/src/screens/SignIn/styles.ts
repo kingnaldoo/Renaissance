@@ -1,9 +1,10 @@
-import { StyleSheet } from 'react-native';
+import { Dimensions, StyleSheet } from 'react-native';
 import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
 	container: {
-		flex: 1,
+		width: '100%',
+		height: Dimensions.get('window').height,
 		backgroundColor: theme.colors.background
 	},
 	header: {
@@ -24,11 +25,11 @@ export const styles = StyleSheet.create({
 	formField: {
 		backgroundColor: '#F7F7F7',
 		width: '75%',
-		height: '98%',
+		height: '95%',
 		paddingHorizontal: 20,
 		paddingVertical: 30,
 		borderRadius: 20,
-		top: -17,
+		top: -27,
 		shadowColor: 'black',
 		shadowOffset: {
 			width: 0,
@@ -55,14 +56,6 @@ export const styles = StyleSheet.create({
 		height: '50%'
 	},
 	formSignInInputField: {
-	},
-	formInputText: {
-		color: theme.colors.text,
-		fontFamily: theme.fonts.text400,
-		borderBottomColor: '#DDDDDD',
-		borderBottomWidth: 2,
-		padding: 0,
-		marginBottom: 30
 	},
 	formMaintainConnected: {
 		flexDirection: 'row',
