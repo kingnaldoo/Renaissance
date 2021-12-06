@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useState } from 'react';
-import { Text, View, TextInput, TouchableOpacity, KeyboardAvoidingView } from 'react-native';
+import { Text, View, TouchableOpacity, KeyboardAvoidingView } from 'react-native';
 import { Form } from '@unform/mobile';
 
 import LogoImg from '../../assets/icons/logo.svg';
@@ -7,12 +7,14 @@ import LogoImg from '../../assets/icons/logo.svg';
 import { styles } from './styles';
 import Icon from 'react-native-vector-icons/Feather';
 import { Input } from '../../components/Form/Input';
+import { AlertModal } from '../../components/Modal/Alert';
 
 export function SignIn() {
 	const formRef: any = useRef();
 
 	const [isChecked, setIsChecked] = useState(false);
 	const [isPasswordVisible, setIsPasswordVisible] = useState(false);
+	const [showAlertModal, setShowAlertModal] = useState(false);
 
 	Icon.loadFont();
 
@@ -62,7 +64,7 @@ export function SignIn() {
 						<Text style={styles.formSignUpTextField}>Não possui cadastro?
 							<Text
 								style={{ textDecorationLine: 'underline' }}
-
+								onPress={() => setShowAlertModal(true)}
 							>
 								Clique aqui
 							</Text>
@@ -70,6 +72,13 @@ export function SignIn() {
 					</View>
 				</KeyboardAvoidingView>
 			</View>
+
+			<AlertModal
+				title='Fale com o administrador'
+				description='Para realizar seu cadastro fale com o administrador do condomínio'
+				isOpen={showAlertModal}
+				onClose={() => setShowAlertModal(false)}
+			/>
 		</View>
 	);
 }
