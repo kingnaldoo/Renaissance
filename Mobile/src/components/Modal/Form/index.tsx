@@ -2,21 +2,22 @@ import React from 'react';
 import { Layout } from '../Layout';
 import { IModalProps } from 'native-base/lib/typescript/components/composites/Modal';
 import { Text } from 'react-native';
-import AlertIcon from '../../../assets/icons/atempt.svg';
 import { styles } from './styles';
+import { Input } from '../../Form/Input';
 
-interface AlertModalProps extends IModalProps{
+interface FormModalProps extends IModalProps{
 	title: string
 	description: string
+	placeholder: string
 	isOpen: boolean
 }
 
-export function AlertModal({ title, description, isOpen,...rest }: AlertModalProps){
+export function FormModal({ title, description, placeholder, isOpen,...rest }: FormModalProps){
 	return(
 		<Layout isOpen={isOpen} {...rest}>
 			<Text style={styles.title}>{title}</Text>
 			<Text style={styles.description}>{description}</Text>
-			<AlertIcon height={40} style={styles.icon}/>
+			<Input placeholder={placeholder}/>
 		</Layout>
 	);
 }

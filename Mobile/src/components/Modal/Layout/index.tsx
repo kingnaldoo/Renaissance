@@ -5,23 +5,19 @@ import Icon from 'react-native-vector-icons/Feather';
 import { styles } from './styles';
 
 interface ILayoutProps extends IModalProps {
-	children: ReactNode
+	children: ReactNode,
+	isOpen: boolean
 }
 
-export function Layout({ children, ...rest }: ILayoutProps) {
+export function Layout({ children, isOpen, ...rest }: ILayoutProps) {
 	Icon.loadFont();
 
 	return(
-		<Modal {...rest}>
+		<Modal isOpen={isOpen} {...rest}>
 			<Modal.Content>
+				<Modal.CloseButton opacity={0}/>
 				<Modal.Header style={styles.header}>
-				{
-					<Icon
-						name='x-circle'
-						size={25}
-						style={styles.closeButton}
-					/>
-				}
+					{<Icon name='x-circle' size={20} style={styles.closeButton}/>}
 				</Modal.Header>
 				<Modal.Body>
 					{children}

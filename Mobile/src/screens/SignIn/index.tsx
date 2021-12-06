@@ -8,13 +8,15 @@ import { styles } from './styles';
 import Icon from 'react-native-vector-icons/Feather';
 import { Input } from '../../components/Form/Input';
 import { AlertModal } from '../../components/Modal/Alert';
+import { FormModal } from '../../components/Modal/Form';
 
 export function SignIn() {
 	const formRef: any = useRef();
 
 	const [isChecked, setIsChecked] = useState(false);
 	const [isPasswordVisible, setIsPasswordVisible] = useState(false);
-	const [showAlertModal, setShowAlertModal] = useState(false);
+	const [showSignInModal, setShowSignInModal] = useState(false);
+	const [showForgetPasswordModal, setShowForgetPasswordModal] = useState(false);
 
 	Icon.loadFont();
 
@@ -57,14 +59,17 @@ export function SignIn() {
 							<TouchableOpacity style={styles.formButtonSubmit}>
 								<Text style={styles.formTextButton}>Entrar</Text>
 							</TouchableOpacity>
-							<Text style={styles.formForgetPassword}>Esqueci minha senha</Text>
+							<Text
+								style={styles.formForgetPassword}
+								onPress={() => setShowForgetPasswordModal(true)}
+							>Esqueci minha senha</Text>
 						</View>
 					</Form>
 					<View style={styles.formSignUpField}>
 						<Text style={styles.formSignUpTextField}>Não possui cadastro?
 							<Text
 								style={{ textDecorationLine: 'underline' }}
-								onPress={() => setShowAlertModal(true)}
+								onPress={() => setShowSignInModal(true)}
 							>
 								Clique aqui
 							</Text>
@@ -76,8 +81,16 @@ export function SignIn() {
 			<AlertModal
 				title='Fale com o administrador'
 				description='Para realizar seu cadastro fale com o administrador do condomínio'
-				isOpen={showAlertModal}
-				onClose={() => setShowAlertModal(false)}
+				isOpen={showSignInModal}
+				onClose={() => setShowSignInModal(false)}
+			/>
+
+			<FormModal
+				title='Esqueci minha senha'
+				description='Insira seu email de cadastro para recuperar sua senha'
+				placeholder='e-mail de cadastro'
+				isOpen={showForgetPasswordModal}
+				onClose={() => setShowForgetPasswordModal(false)}
 			/>
 		</View>
 	);

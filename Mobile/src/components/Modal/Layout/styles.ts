@@ -6,6 +6,7 @@ export const styles = StyleSheet.create({
 		backgroundColor: theme.colors.header,
 	},
 	closeButton: {
-		alignSelf: 'flex-end'
+		alignSelf: 'flex-end',
+		marginVertical: -8
 	}
 });
