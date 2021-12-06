@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useState } from 'react';
-import { Text, View, TouchableOpacity, KeyboardAvoidingView } from 'react-native';
+import { Text, View, KeyboardAvoidingView } from 'react-native';
 import { Form } from '@unform/mobile';
 
 import LogoImg from '../../assets/icons/logo.svg';
@@ -9,8 +9,9 @@ import Icon from 'react-native-vector-icons/Feather';
 import { Input } from '../../components/Form/Input';
 import { AlertModal } from '../../components/Modal/Alert';
 import { FormModal } from '../../components/Modal/Form';
+import { ButtonSubmit } from '../../components/Form/ButtonSubmit';
 
-export function SignIn() {
+export function SignIn({ navigation }: any) {
 	const formRef: any = useRef();
 
 	const [isChecked, setIsChecked] = useState(false);
@@ -56,9 +57,7 @@ export function SignIn() {
 						</View>
 
 						<View style={styles.formSignInSubmitField}>
-							<TouchableOpacity style={styles.formButtonSubmit}>
-								<Text style={styles.formTextButton}>Entrar</Text>
-							</TouchableOpacity>
+							<ButtonSubmit title='Entrar'/>
 							<Text
 								style={styles.formForgetPassword}
 								onPress={() => setShowForgetPasswordModal(true)}

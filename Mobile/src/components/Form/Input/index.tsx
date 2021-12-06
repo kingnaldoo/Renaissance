@@ -4,15 +4,21 @@ import { styles } from './styles';
 
 interface FormInputTextProps extends TextInputProps {
 	placeholder: string;
+	isModal?: boolean;
 	icon?: ReactNode;
 }
 
-export function Input({ icon, placeholder, ...rest }: FormInputTextProps) {
+export function Input({ icon, placeholder, isModal,...rest }: FormInputTextProps) {
 	return(
-		<View style={styles.inputSafeArea}>
+		<View style={[
+			styles.inputSafeArea,
+			isModal && { width: '85%', alignSelf: 'center' }
+			]}>
 			<TextInput
 				placeholderTextColor={'#6B6B6B'}
-				style={styles.formInputText}
+				style={[
+					styles.formInputText,
+					isModal && { textAlign: 'center', width: '100%' }]}
 				placeholder={placeholder}
 				{...rest}
 			/>

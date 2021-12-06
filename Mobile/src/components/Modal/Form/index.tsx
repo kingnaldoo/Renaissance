@@ -4,6 +4,7 @@ import { IModalProps } from 'native-base/lib/typescript/components/composites/Mo
 import { Text } from 'react-native';
 import { styles } from './styles';
 import { Input } from '../../Form/Input';
+import { ButtonSubmit } from '../../Form/ButtonSubmit';
 
 interface FormModalProps extends IModalProps{
 	title: string
@@ -17,7 +18,8 @@ export function FormModal({ title, description, placeholder, isOpen,...rest }: F
 		<Layout isOpen={isOpen} {...rest}>
 			<Text style={styles.title}>{title}</Text>
 			<Text style={styles.description}>{description}</Text>
-			<Input placeholder={placeholder}/>
+			<Input placeholder={placeholder} isModal/>
+			<ButtonSubmit title='Enviar e-mail' isModal/>
 		</Layout>
 	);
 }

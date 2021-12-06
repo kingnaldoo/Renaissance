@@ -71,19 +71,6 @@ export const styles = StyleSheet.create({
 	formSignInSubmitField: {
 
 	},
-	formButtonSubmit: {
-		width: '100%',
-		height: 45,
-		justifyContent: 'center',
-		alignItems: 'center',
-		borderRadius: 10,
-		backgroundColor: theme.colors.primary
-	},
-	formTextButton: {
-		fontFamily: theme.fonts.title900,
-		color: 'white',
-		fontSize: 18
-	},
 	formForgetPassword: {
 		alignSelf: 'center',
 		marginTop: 10,

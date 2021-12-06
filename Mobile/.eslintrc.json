@@ -22,6 +22,7 @@
     ],
     "rules": {
         "no-unused-vars": "warn",
+		"no-explicit-any": "off",
         "no-mixed-spaces-and-tabs": "off",
         "linebreak-style": [
             "error",

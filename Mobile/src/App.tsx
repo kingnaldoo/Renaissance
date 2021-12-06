@@ -1,14 +1,14 @@
+import { NavigationContainer } from '@react-navigation/native';
 import { NativeBaseProvider } from 'native-base';
 import React from 'react';
-import { SignIn } from './screens/SignIn';
-
+import { Routes } from './routes';
 
 export default function App() {
 	return (
-		<>
+		<NavigationContainer>
 			<NativeBaseProvider>
-				<SignIn />
+				<Routes />
 			</NativeBaseProvider>
-		</>
+		</NavigationContainer>
 	);
 }
