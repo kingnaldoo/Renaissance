@@ -16,6 +16,8 @@ target 'renaissance' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'react-native-pager-view', :path => '../node_modules/react-native-pager-view'
+
   target 'renaissanceTests' do
     inherit! :complete
     # Pods for testing

@@ -4,6 +4,7 @@ import { Text } from 'react-native';
 export function Reserves() {
 	return (
 		<>
+		<Text>Reservas</Text>
 		</>
 	);
 }
