@@ -2,43 +2,48 @@
 <img src="./Web/public/logo512.png" width="100"/><br>
 Renaissance
 </h1>
-<p align="center"><b>🏡 Renaissance é um web-app de gestão de condomínios, com o objetivo de melhorar a usabilidade do morador, contribuindo assim para a rápida execução de suas tarefas.</b>
+<p align="center"><b>🏘️ Renaissance is an open-source project of an app to manage condominiums and help residents to quickly perform their tasks</b>
 <ul align="center">
-    <img src="https://img.shields.io/static/v1?label=Status&message=100%&labelColor=%2306121f&style=flat-square&color=%23004508">
+    <img src="https://img.shields.io/static/v1?label=Status&message=45%&labelColor=%2306121f&style=flat-square&color=%23ebcc05">
     <img src="https://img.shields.io/static/v1?label=License&message=GPL-3.0&labelColor=%2306121f&style=flat-square&color=%23e60000">
 </ul>
 </p>
 <br>
 <img src="mockup.png">
 
-## 🚀 OBJETIVOS
-Aprimorar o app existente do condomínio Renaissance Residence Club, corrigindo falhas de segurança, usabilidade, desempenho e design.
+## 🚀 OBJETIVES
+Makes the app something with good usability and agility in performing tasks.
 
-## 🎲 DESCRIÇÃO DO PROJETO
-Projeto desenvolvido para a cliente Tamires, cuja nossa equipe, denominada <b>A próxima microsoft</b>, é composta pelos seguintes integrantes:
+## 🎲 PROJECT DESCRIPTION
+Project architected and developed by:
 <ul>
-    <li>Ana Carolina Clark Roriz (Designer/Revisora)</li>
-    <li>Pedro Henrique Pontes Aguiar (Designer/Arquiteto da informação/Atendimento)</li>
-    <li>Reinaldo da Silva Nascimento (Desenvolvedor Front-end/Líder)</li>
-    <li>Antônio Guilherme do Nascimento Pereira (Desenvolvedor Back-end/Coordenador de testes)</li>
+    <li>Ana Carolina Clark Roriz (Designer/Reviewer)</li>
+    <li>Pedro Henrique Pontes Aguiar (Designer/Information Architect/Customer Service)</li>
+    <li>Reinaldo da Silva Nascimento (Front-end Developer/Leader)</li>
+    <li>Antônio Guilherme do Nascimento Pereira (Back-end Developer/Test Coordinator)</li>
 </ul> 
 
-## 💻 TECNOLOGIAS
+## 💻 TECHNOLOGIES
 
-### Protótipo
+### Prototype
 <ul>
     <img src="https://cdn.worldvectorlogo.com/logos/figma-1.svg" height="30">
-    <p>Link do protótipo: <a href="https://www.figma.com/file/XF688rMuK9v1CTFRcZshhv/Renaissance-(Mobile)?node-id=0%3A1">Figma</a></p>
+    <p>Link of prototype: <a href="https://www.figma.com/file/XF688rMuK9v1CTFRcZshhv/Renaissance-(Mobile)?node-id=0%3A1">Figma</a></p>
 </ul>
 
-### Front-end
+### Front-end (WEB)
 <ul>
     <img src="https://appmasters.io/static/typescript-logo-26cc95f255ccb936d154b43614f61602.png" height="30">
     <img src="https://appmasters.io/static/47ce6e77f039020ee2e76a10c1e988e9/acf26/react.webp" height="30">
     <img src="https://tusharkandpal.github.io/img/bootstrap.png" height="30">
     <img src="https://andrewsmithdeveloper.com/img/sass-new.4c1dd90f.png" height="30">
-    <img src="https://user-images.githubusercontent.com/3025322/87547253-bf050400-c6a2-11ea-950a-280311bc6cc8.png" height="30">
-    <img src="https://images.contentful.com/34rjphroaymg/3gzGgvOT8skY6kUaoMUGUq/8e1f2c9d41a9d91baa53ab90b017ea87/webpack.svg" height="30">
+</ul>
+
+### Front-end (MOBILE)
+<ul>
+    <img src="https://appmasters.io/static/typescript-logo-26cc95f255ccb936d154b43614f61602.png" height="30">
+    <img src="https://appmasters.io/static/47ce6e77f039020ee2e76a10c1e988e9/acf26/react.webp" height="30">
+    <img src="https://docs.nativebase.io/img/nativebaselogo.svg" height="30">
 </ul>
 
 ### Back-end
@@ -53,16 +58,10 @@ Projeto desenvolvido para a cliente Tamires, cuja nossa equipe, denominada <b>A 
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" height="30">
 </ul>
 
-### Teste de API
+### API TEST
 <ul>
     <img src="https://user-images.githubusercontent.com/2575745/67964810-4d9a2980-fbd7-11e9-8cf7-661ded187ee6.png" height="30">
     <img src="https://miro.medium.com/max/1024/0*8mnWon1DYLVV5l_y.png" height="30">
-</ul>
-
-### Diagrama de processos
-<ul>
-    <img src="https://store-images.s-microsoft.com/image/apps.14142.2ec57164-ba5b-42ee-8253-ade72ca74c8d.e8efbcc8-e27f-4682-9321-eb111eb3bc68.950e1c22-0dd9-4079-807b-145ecdb6df9c.png" height="30">
-    <p>Link do diagrama: <a href="https://drive.google.com/file/d/1yJaVmnmJD9mrgcHU5X1R0mkqc7WP1q-r/view">Draw.io</a></p>
 </ul>
 
 ### Deploy
@@ -71,33 +70,20 @@ Projeto desenvolvido para a cliente Tamires, cuja nossa equipe, denominada <b>A 
     <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGmNZMDOpmMQg/company-logo_200_200/0/1519905610801?e=2159024400&v=beta&t=D5lu9rTbQ_aW1ubme8GIq_QhKIm8WTiXTtoBlEHPcA8" height="30">
 </ul>
 
-## 🚧 MAPEAMENTO DE FUNCIONALIDADES
+## 🚧 FEATURE MAPPING
 
-| Requisitos | Descrição | Função | Arquivo | Status
+| Requisites | Description | Feature | File | Status
 | --- | --- | --- | --- | --- |
-| RF0001 | Autenticação de usuário. Utilizando a autenticação por JWT, o usuário informa seu email e senha de cadastro, em seguida o sistema retorna dados contendo as informações do usuário e um token que será utilizado no cabeçalho de cada requisição, além de fazer a distinção entre administrador e condômino. Este token possui tempo de expiração de 1 hora e, após isso, é necessário fazer uma nova solicitação| handleLogin() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Login/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
-| RF0002 | Cadastrar usuários. Somente os administradores poderão realizar o cadastro de usuários devendo informar nome, apartamento, cpf, numero de telefone, data de nascimento, email e senha | handleCreateUser() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Admin/RegisterResident/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
-| RF0003 | Listar usuários. Os administradores poderão observar quais são os usuário cadastrados | listingUsers() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Admin/RegisterResident/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
-| RF0004 | Listar reservas dos usuários. Os administradores poderão observar todas as reservas e os detalhes de cada reserva como: quem realizou e o apartamento de quem realizou. | listingReserves() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Admin/Reserves/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
-| RF0005 | Upload de documentos. Os administradores poderão fazer upload de documentos que serão distribuidos para todos os condôminos como: Regras do condomínio, comunicados e atas de reunião | addDocuments() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Admin/Documents/index.tsx">index.tsx</a> | <li align="center">- [x] </li> | 
-| RF0006 | Esqueci minha senha. Caso o usuário tenha esquecido sua senha, será solicitado para ele digitar o email de cadastro, ao confirmar, um email contendo um link para redefinição de senha será enviado para seu email e, ao clicar no link, o usuário será redirecionado para uma página de redefinição de senha | handleRedefinePassword() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/ResetPassword/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
-| RF0007 | Meus dados. Os condôminos poderão consultar os dados fornecidos no momento do cadastro com o administrador. Sendo que, destes, alguns poderão ser editados diretamente pelo usuário como: email, senha e telefone. O restante como: nome, apartamento, cpf e data de nascimento, só podem ser alterados pelo administrador. | useAuth() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Client/MyData/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
-| RF0008 | Alterar email. Os condôminos poderão alterar o email de cadastro, informando, primeiramente, a senha de acesso, em seguida, redirecionando para uma tela de redefinição de email. | resetEmail() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Client/MyData/Email/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
-| RF0009 | Alterar número de telefone. Os condôminos poderão alterar o número de telefone, um modal se abre para que a pessoa possa alterar o telefone. | resetPhone() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Client/MyData/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
-| RF0010 | Fazer reservas. Os condôminos poderão efetuar reservas nos espaços disponiveis no condomínio, cada espaço possui suas regras como horario de inicio e fim, limites de reserva por horário | handleCreateReserve() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Client/Reserves/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
-| RF0011 | Listar reservas. Os condôminos poderão observar quais reservas eles fizeram e os detalhes como espaço, data e horario. | listingUserReserves() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Client/Reserves/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
-| RF0012 | Excluir reservas. Os condôminos poderão excluir as reservas que eles realizaram | handleDeleteReserve() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/8ad0d7b0d7/src/contexts/deleteReserveContext.tsx">deleteReserveContext.tsx</a> | <li align="center">- [x] </li> |
-| RF0013 | Download de documentos. Os condôminos poderão realizar o download de documentos oficiais como regras do condomínio, comunicados e atas de reunião| getDocuments() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/8ad0d7b0d7/src/pages/Client/Documents/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
-
-## ✅ COMO UTILIZAR?
-Utilize as credenciais a seguir para entrar como administrador:
-- email: teste1@gmail.com
-- senha: ####56567687879
-
-Ou se preferir entrar como morador utilize:
-- email: reinaldosn2016@gmail.com
-- senha: 12345678
-
-Para baixar o apk <a href="https://drive.google.com/file/d/11hmCnLAXYwSvpb2P4RUZZ9MjIy7MoLmg/view?usp=sharing">clique aqui</a>
-
-<p>OBS: precisa habilitar a opção <b>manter-me conectado</b> para entrar, por enquanto :)</p>
+| RF0001 | User authentication. Using JWT authentication, the user informs his/her registration email and password, then the system returns data containing the user's information and a token that will be used in the header of each request, in addition to distinguishing between administrator and unit owner. This token has an expiration time of 1 hour, after which it is necessary to make a new request| handleLogin() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Login/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
+| RF0002 | Register users. Only administrators will be able to register users, providing name, apartment, CPF, phone number, date of birth, email and password | handleCreateUser() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Admin/RegisterResident/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
+| RF0003 | List users. Administrators will be able to see which users are registered | listingUsers() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Admin/RegisterResident/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
+| RF0004 | List user reservations. The administrators will be able to observe all reservations and the details of each reservation such as: who made it and the apartment of who made it | listingReserves() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Admin/Reserves/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
+| RF0005 | Uploading documents. Administrators will be able to upload documents that will be distributed to all unit owners such as: Condominium rules, announcements and meeting minutes | addDocuments() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Admin/Documents/index.tsx">index.tsx</a> | <li align="center">- [x] </li> | 
+| RF0006 | I forgot my password. If the user has forgotten their password, they will be asked to enter the registration email, when confirming, an email containing a link to reset the password will be sent to their email and, when clicking on the link, the user will be redirected to a page of Password Reset | handleRedefinePassword() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/ResetPassword/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
+| RF0007 | My data. Owners will be able to consult the data provided at the time of registration with the administrator. Of these, some can be edited directly by the user, such as: email, password and telephone number. The rest, such as: name, apartment, cpf and date of birth, can only be changed by the administrator | useAuth() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Client/MyData/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
+| RF0008 | Change e-mail. Owners will be able to change the registration email, first informing the access password, then redirecting to an email reset screen. | resetEmail() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Client/MyData/Email/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
+| RF0009 | Change phone number. Owners can change the phone number, a modal opens so that the person can change the phone number. | resetPhone() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Client/MyData/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
+| RF0010 | Make reservations. Owners can make reservations in the spaces available in the condominium, each space has its rules such as start and end times, reservation limits by time | handleCreateReserve() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Client/Reserves/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
+| RF0011 | List reservations. Owners will be able to observe which reservations they have made and details such as space, date and time. | listingUserReserves() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/master/src/pages/Client/Reserves/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
+| RF0012 | Delete reservations. Owners will be able to delete the reservations they have made. | handleDeleteReserve() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/8ad0d7b0d7/src/contexts/deleteReserveContext.tsx">deleteReserveContext.tsx</a> | <li align="center">- [x] </li> |
+| RF0013 | Document download. Owners will be able to download official documents such as condominium rules, notices and meeting minutes| getDocuments() | <a href="https://github.com/ProximaMicrosoft/Renaissance-Front-end/blob/8ad0d7b0d7/src/pages/Client/Documents/index.tsx">index.tsx</a> | <li align="center">- [x] </li> |
