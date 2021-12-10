@@ -18,7 +18,11 @@ export function Home({ navigation }: any) {
 				<View style={styles.list}>
 					<ButtonHome title='Meus dados' icon={<UserIcon style={styles.icon}/>} />
 
-					<ButtonHome title='Reservas' icon={<CalendarIcon style={styles.icon}/>} />
+					<ButtonHome
+						title='Reservas'
+						icon={<CalendarIcon style={styles.icon}/>}
+						onPress={() => navigation.navigate('Reserves')}
+					/>
 
 					<ButtonHome title='Documentos oficiais' icon={<DocumentIcon style={styles.icon}/>} />
 				</View>

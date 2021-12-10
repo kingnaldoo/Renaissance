@@ -1,16 +1,16 @@
 import React, { ReactNode } from 'react';
-import { Text, TouchableOpacity, View } from 'react-native';
+import { Text, TouchableOpacity, TouchableOpacityProps, View } from 'react-native';
 import { styles } from './styles';
 
-type ButtonHomeProps = {
+interface ButtonHomeProps extends TouchableOpacityProps {
 	title: string;
 	icon: ReactNode;
 }
 
-export function ButtonHome({ title, icon }: ButtonHomeProps) {
+export function ButtonHome({ title, icon, ...rest }: ButtonHomeProps) {
 
 	return(
-		<TouchableOpacity style={styles.button}>
+		<TouchableOpacity style={styles.button} {...rest}>
 			<View>
 				{icon}
 				<Text style={styles.title}>{title}</Text>

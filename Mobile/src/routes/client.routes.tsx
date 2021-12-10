@@ -1,19 +1,16 @@
 import React from 'react';
 import Icon from 'react-native-vector-icons/Feather';
-import { createStackNavigator } from '@react-navigation/stack';
+import { createStackNavigator, CardStyleInterpolators } from '@react-navigation/stack';
 import { Home } from '../screens/Client/Home';
-import { Reserves } from '../screens/Client/Reserves';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { Documents } from '../screens/Client/Documents';
-import { color } from 'react-native-reanimated';
 import { theme } from '../global/styles/theme';
-import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
+import { Reserves } from '../screens/Client/Reserves';
 
 
 export function ClientRoutes() {
 	const Stack = createStackNavigator();
 	const Drawer = createDrawerNavigator();
-	const Tab = createMaterialTopTabNavigator();
 
 	Icon.loadFont();
 
@@ -21,6 +18,7 @@ export function ClientRoutes() {
 		return (
 			<Stack.Navigator initialRouteName='Home' screenOptions={{
 				title: '',
+				cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,
 				headerStyle: {
 					backgroundColor: theme.colors.header,
 					height: 50,
